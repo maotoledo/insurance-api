@@ -1,7 +1,7 @@
 FROM node:16.16
 
 ENV PORT=3000
-WORKDIR /app
+WORKDIR /
 
 RUN npm install
 COPY . .
